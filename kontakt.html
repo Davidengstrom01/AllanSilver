@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <!--Head-->
+  <title>Allans Silver</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/stylesheetK.css"><!--CSS-->
+  <script src="scripts/ImagesSlider.js"></script> <script src="scripts/MenuChange.js"></script>
+</head>
+<body onload="plusSlides(0)"><!--När sidan laddar kallas funktionen för att byta bild-->
+  <div class="header">
+    <div class="fixed_header"><!--Låstheader-->
+        <div id="leftMenu" class="headerDiv"></div><!--Vänstra delen-->
+
+        <div id="rightMenu" class="headerDiv"><!--Högra delen-->
+          <div class="menuRow">
+            <div class="IconColumn">
+            <span class="icon" id="shopping_cart"></span><!--Ikon-->
+           </div>
+
+            <div class="IconColumn">
+              <a href="index.html"><span class="icon" id="home"></span></a><!--Ikoner-->
+            </div>
+
+            <div class="IconColumn">
+              <span class="icon" id="account_circle"></span>
+            </div>
+
+            <div class="IconColumn" id="searchColumn">
+                <!--Searchbar-->
+                <form class="form_search">
+                  <input type="text" placeholder="..."><!--SökBar-->
+                  <button id="looking_glass" class="submit_button"></button><!--Ikon-->
+              </form>
+            </div>
+          </div>
+        </div>
+
+        <div class="phoneMenu">
+
+          <div id="mySidenav" class="sidenav">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+          <a href="produktkatalogRingar.html"><strong>Ringar</strong></a><!--Val-->
+          <a href="EXTRA_SIDOR/produktkatalogArmband.html"><strong>Armband</strong></a>
+          <a href="EXTRA_SIDOR/produktkatalogHalsband.html"><strong>Halsband</strong></a>  
+
+        </div>
+        <span class="icon" id="shopping_cart"></span>
+        <span class="icon" id="account_circle"></span>
+        <span class="openBtn" onclick="openNav()">☰</span>
+      </div>
+        
+
+    </div>
+    
+    <div class="mainMenu" class="headerDiv"><!--Huvudmeny-->
+      <a href="index.html"><div class="logo"></div> </a>     <!--Logga-->  
+        <a href="produktkatalogRingar.html" class="menu"><strong>Ringar</strong></a><!--Val-->
+        <a href="EXTRA_SIDOR/produktkatalogArmband.html" class="menu"><strong>Armband</strong></a>
+        <a href="EXTRA_SIDOR/produktkatalogHalsband.html" class="menu"><strong>Halsband</strong></a>        
+    </div>
+</div>
+<!-- SKRIV INNEHÅLL HÄR -->
+    <div class="content">    
+      <div class="contactRow">
+        <div class="contactColumn">
+          <div class="container">
+            <form action="/action_page.php">
+
+              <label for="Email">Email</label>
+              <input type="text" id="Email" name="Mail" placeholder="dittnamn@mail.se">
+                            
+              <label for="subject">Ämne</label>
+              <select id="subject" name="subject">
+                <option value="">Order</option>
+                <option value="">Produkt fråga</option>
+                <option value="">Övrigt</option>
+              </select>
+          
+              <label for="message">Meddelande</label>
+              <textarea id="message" name="message" placeholder="Meddelande..." style="height:200px"></textarea>
+          
+              <input type="submit" value="Submit">
+            </form>
+          </div>
+        </div>
+        <div class="contactColumn">
+          <div class="goodImage"></div>
+        </div>
+      </div>
+
+      <div class="contactEmployee">
+        <div class="contactRow">
+
+          <div class="employeeColumn" id="one">
+            <div class="employeeIMG"></div>
+            <p>namn</p>
+            <p>Email</p>
+            <p>Telefon</p>
+          </div>
+
+          <div class="employeeColumn" id="two">
+            <div class="employeeIMG"></div>
+            <p>namn</p>
+            <p>Email</p>
+            <p>Telefon</p>
+          </div>
+
+          <div class="employeeColumn" id="three">
+            <div class="employeeIMG"></div>
+            <p>namn</p>
+            <p>Email</p>
+            <p>Telefon</p>
+          </div>
+
+          <div class="employeeColumn" id="four">
+            <div class="employeeIMG"></div>
+            <p>namn</p>
+            <p>Email</p>
+            <p>Telefon</p>
+          </div>
+
+          <div class="employeeColumn" id="five">
+            <div class="employeeIMG"></div>
+            <p>namn</p>
+            <p>Email</p>
+            <p>Telefon</p>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <div class="row">
+        <div class="footer_column">
+          <div class="links">       
+            <h2>Om oss:</h2>
+            <a href="">Vår historia</a>
+            <h3>Följ oss:</h3>
+            <a href="">Instagram</a>
+            <br>
+            <a href="">Twitter</a>
+            <br>
+            <a href="">Facebook</a>
+          </div>        
+        </div>
+        
+        <div class="footer_column">
+          <div class="links">
+              <h2>Kontakta oss:</h2>
+              <a href="">Kontakt formulär</a>   
+              <br>
+              <a href="">Kontakta personal</a>             
+          </div>
+        </div>
+        <div class="footer_column">
+          <h2>Vår smedja</h2><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d68462.8313232111!2d12.859474658203125!3d57.572580050000006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46500d774239f29b%3A0xca99249e9c2f042e!2sROSENLUND%2C%20BYN%2C%20511%2074%20Skepphult%2C%20Sverige!5e0!3m2!1ssv!2sse!4v1634891418989!5m2!1ssv!2sse" width="70%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe> </div>
+      </div>
+      </div>      
+    </div>
+</body>
